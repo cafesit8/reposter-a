@@ -1,0 +1,731 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul li {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+  padding: 20px 15px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav ul li :hover {
+  color: #0C5D7B;
+  font-weight: bold;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #57F5A1;
+}
+
+.section-1 h2 {
+  font-family: "Be Vietnam Pro";
+  font-size: 35px;
+  color: white;
+}
+
+.section-1 h1 {
+  font-family: "Oswald";
+  font-size: 105px;
+  letter-spacing: 25px;
+  color: white;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-2 h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: "Staatliches";
+  font-weight: 1;
+}
+
+.section-2 .contenedor {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-2 .contenedor .helado-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-2 .contenedor .helado-1 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-2 .contenedor .helado-1 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-2 .contenedor .helado-1 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-2 .contenedor .helado-1 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-2 .contenedor .helado-1 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-2 .contenedor .helado-1 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-2 .contenedor .helado-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-2 .contenedor .helado-2 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-2 .contenedor .helado-2 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-2 .contenedor .helado-2 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-2 .contenedor .helado-2 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-2 .contenedor .helado-2 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-2 .contenedor .helado-2 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-2 .contenedor .helado-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-2 .contenedor .helado-3 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-2 .contenedor .helado-3 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-2 .contenedor .helado-3 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-2 .contenedor .helado-3 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-2 .contenedor .helado-3 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-2 .contenedor .helado-3 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-3 h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: "Staatliches";
+  font-weight: 1;
+}
+
+.section-3 .contenedor {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-3 .contenedor .helado-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-3 .contenedor .helado-1 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-3 .contenedor .helado-1 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-3 .contenedor .helado-1 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-3 .contenedor .helado-1 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-3 .contenedor .helado-1 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-3 .contenedor .helado-1 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-3 .contenedor .helado-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-3 .contenedor .helado-2 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-3 .contenedor .helado-2 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-3 .contenedor .helado-2 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-3 .contenedor .helado-2 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-3 .contenedor .helado-2 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-3 .contenedor .helado-2 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-3 .contenedor .helado-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-3 .contenedor .helado-3 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-3 .contenedor .helado-3 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-3 .contenedor .helado-3 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-3 .contenedor .helado-3 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-3 .contenedor .helado-3 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-3 .contenedor .helado-3 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-4 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-4 h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: "Staatliches";
+  font-weight: 1;
+}
+
+.section-4 .contenedor {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-4 .contenedor .helado-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-4 .contenedor .helado-1 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-4 .contenedor .helado-1 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-4 .contenedor .helado-1 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-4 .contenedor .helado-1 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-4 .contenedor .helado-1 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-4 .contenedor .helado-1 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-4 .contenedor .helado-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-4 .contenedor .helado-2 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-4 .contenedor .helado-2 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-4 .contenedor .helado-2 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-4 .contenedor .helado-2 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-4 .contenedor .helado-2 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-4 .contenedor .helado-2 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+
+.section-4 .contenedor .helado-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+}
+
+.section-4 .contenedor .helado-3 .imagen {
+  width: 100%;
+  height: 50%;
+}
+
+.section-4 .contenedor .helado-3 .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-4 .contenedor .helado-3 .texto {
+  padding: 0 10px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-4 .contenedor .helado-3 .texto h4 {
+  font-size: 25px;
+  font-family: "Staatliches";
+  font-weight: 1;
+  margin-top: -15px;
+}
+
+.section-4 .contenedor .helado-3 .texto p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.section-4 .contenedor .helado-3 .texto .precio {
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+/*# sourceMappingURL=styles.css.map */

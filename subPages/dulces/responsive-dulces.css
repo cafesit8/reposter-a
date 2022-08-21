@@ -1,0 +1,78 @@
+@media (max-width: 650px){
+    nav{
+        display: none;
+    }
+
+    .section-1 h2{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .section-1 h1{
+        font-size: 60px;
+        letter-spacing: 5px;
+        color: white;
+    }
+
+    .section-2 h3{
+        font-size: 1em;
+    }
+
+    .section-2 .contenedor,
+    .section-3 .contenedor,
+    .section-4 .contenedor{
+        width: 90%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2 .contenedor .helado-1,
+    .section-2 .contenedor .helado-2,
+    .section-2 .contenedor .helado-3,
+    .section-3 .contenedor .helado-1,
+    .section-3 .contenedor .helado-2,
+    .section-3 .contenedor .helado-3,
+    .section-4 .contenedor .helado-1,
+    .section-4 .contenedor .helado-2,
+    .section-4 .contenedor .helado-3{
+        width: 100%;
+        height: 13em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section-2 .contenedor .helado-1 .texto h4,
+    .section-2 .contenedor .helado-2 .texto h4,
+    .section-2 .contenedor .helado-3 .texto h4,
+    .section-3 .contenedor .helado-1 .texto h4,
+    .section-3 .contenedor .helado-2 .texto h4,
+    .section-3 .contenedor .helado-3 .texto h4,
+    .section-4 .contenedor .helado-1 .texto h4,
+    .section-4 .contenedor .helado-2 .texto h4,
+    .section-4 .contenedor .helado-3 .texto h4{
+        font-size: 15px;
+    }
+
+    .section-2 .contenedor .helado-1 .texto p,
+    .section-2 .contenedor .helado-1 .texto .precio,
+    .section-2 .contenedor .helado-2 .texto p,
+    .section-2 .contenedor .helado-2 .texto .precio,
+    .section-2 .contenedor .helado-3 .texto p,
+    .section-2 .contenedor .helado-3 .texto .precio,
+    .section-3 .contenedor .helado-1 .texto p,
+    .section-3 .contenedor .helado-1 .texto .precio,
+    .section-3 .contenedor .helado-2 .texto p,
+    .section-3 .contenedor .helado-2 .texto .precio,
+    .section-3 .contenedor .helado-3 .texto p,
+    .section-3 .contenedor .helado-3 .texto .precio,
+    .section-4 .contenedor .helado-1 .texto p,
+    .section-4 .contenedor .helado-1 .texto .precio,
+    .section-4 .contenedor .helado-2 .texto p,
+    .section-4 .contenedor .helado-2 .texto .precio,
+    .section-4 .contenedor .helado-3 .texto p,
+    .section-4 .contenedor .helado-3 .texto .precio{
+        font-size: 14px;
+    }
+}
